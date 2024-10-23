@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.VueltasTest" time="0.056" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.VueltasTest" time="0.007" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,9 +15,9 @@
     <property name="user.country" value="AR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Users\Home\Desktop\jdk\Oracle_JDK-22\bin"/>
-    <property name="sun.java.command" value="C:\Users\Home\AppData\Local\Temp\surefire5005603933403010044\surefirebooter5550538866378672287.jar C:\Users\Home\AppData\Local\Temp\surefire5005603933403010044 2024-10-23T10-14-27_157-jvmRun1 surefire16453776195634012694tmp surefire_08227288599480664634tmp"/>
+    <property name="sun.java.command" value="C:\Users\Home\AppData\Local\Temp\surefire15098338749804017203\surefirebooter1883709399662177474.jar C:\Users\Home\AppData\Local\Temp\surefire15098338749804017203 2024-10-23T11-48-29_256-jvmRun1 surefire942976376391746943tmp surefire_012219993559065855270tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="com.example.VueltasTest"/>
+    <property name="test" value="${packageClassName}"/>
     <property name="surefire.test.class.path" value="C:\Users\Home\Documents\formula1\formula1\target\test-classes;C:\Users\Home\Documents\formula1\formula1\target\classes;C:\Users\Home\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\Home\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Home\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\Home\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Home\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\Home\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Home"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Home\AppData\Local\Temp\surefire5005603933403010044\surefirebooter5550538866378672287.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Home\AppData\Local\Temp\surefire15098338749804017203\surefirebooter1883709399662177474.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22.0.2+9-70"/>
@@ -60,10 +60,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="testGetCircuito" classname="com.example.VueltasTest" time="0.032"/>
-  <testcase name="testSetTiempoInvalido" classname="com.example.VueltasTest" time="0.001"/>
-  <testcase name="testGetEquipo" classname="com.example.VueltasTest" time="0"/>
-  <testcase name="testSetTiempo" classname="com.example.VueltasTest" time="0.001"/>
+  <testcase name="testGetCircuito" classname="com.example.VueltasTest" time="0"/>
+  <testcase name="testSetTiempoInvalido" classname="com.example.VueltasTest" time="0"/>
+  <testcase name="testGetEquipo" classname="com.example.VueltasTest" time="0.001"/>
+  <testcase name="testSetTiempo" classname="com.example.VueltasTest" time="0.002"/>
   <testcase name="testGetPiloto" classname="com.example.VueltasTest" time="0.001"/>
   <testcase name="testGetTiempo" classname="com.example.VueltasTest" time="0.001"/>
 </testsuite>
